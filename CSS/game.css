@@ -1,0 +1,42 @@
+.background    { background-image: url("http://wall-papers.info/images/mario-background/mario-background-7.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 0, 0); }
+.wall          { background: blue;   }
+.image .background	{ background-image: url("https://cdn.meme.am/instances/43170474.jpg"); 
+							table-layout: fixed;
+							border-spacing: 0;  }
+.fail .background	{ background-image: url("http://s2.quickmeme.com/img/7c/7cc656d782796ab48808aa34d33c079de5d3bf73428894deb2de904c899d36c0.jpg"); 
+							table-layout: fixed;
+							border-spacing: 0;  }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(252, 235, 40); }
+.player { background: rgb(0, 242, 8); }
+.black { background: black; }
+.cave .background { background: black; }
+.dark .wall { background: black; }
+.ness .lava { background: black; }
+.win {background: rgb(0, 300, 0); }
+.break {background: rgb(100, 200, 150); }
+
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.fail .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -3px -7px 9px white, 5px -6px 9px white;
+  background: rgb(255, 255, 0);
+}
+.dark .player { 
+  background: rgba(219, 154, 43, 0.05); 
+}
